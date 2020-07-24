@@ -1,0 +1,29 @@
+.container-fluid {
+    .row {
+       height: 1000px;
+      .list-profile {
+        margin-top: 10px;
+        height: 1000px;
+        overflow: auto;
+        border-style: ridge;
+         .spinner-border {
+            margin: inherit;
+       }
+  }
+  .profile {
+      margin-top: 10px;
+      padding: 10px;
+      border-style: ridge;
+    }
+}
+}
+
+.media {
+  .tweet {
+    margin: 10px;
+    margin-left: auto;
+    img {
+      padding: 5px;
+    }
+  }
+}

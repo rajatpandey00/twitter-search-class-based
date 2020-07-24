@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox test snapshot renders 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <input
+      placeholder="Search by User name..."
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    />
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="button"
+    >
+      Submit
+    </button>
+  </div>
+</div>
+`;

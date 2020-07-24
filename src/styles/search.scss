@@ -1,0 +1,23 @@
+
+.search-title {
+    text-align: center;
+    margin: 40px;
+    font-size: x-large;
+    font-family: initial;
+    font-weight: 900;
+
+}
+
+.search {
+    height: max-content;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 20px;
+
+    .search-box {
+        text-align: center;
+        input {
+            margin: 10px;
+        }
+    }
+}

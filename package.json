@@ -3,42 +3,52 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-react-constant-elements": "^7.10.4",
+    "@babel/plugin-transform-react-inline-elements": "^7.10.4",
     "axios": "^0.19.2",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-transform-react-pure-class-to-function": "^1.0.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "body-parser": "^1.19.0",
-    "bootstrap": "^4.5.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "identity-obj-proxy": "^3.0.0",
     "lodash": "^4.17.19",
-    "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "twit": "^2.2.11",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "mock-server": "JSON_SERVER_PORT=4000 nodemon src/server.js --watch",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "flow": "flow",
+    "start": "nodemon src/server.js --watch",
+    "dev-server": "webpack && webpack-dev-server",
+    "test": "jest --config ./jest.config.json",
+    "test:watch": "npm run test -- --watch"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-flow": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "css-loader": "^3.6.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0",
+    "flow-bin": "^0.130.0",
+    "flow-watch": "^2.0.0",
+    "jest": "^26.1.0",
+    "node-sass": "^4.14.1",
+    "react-test-renderer": "^16.13.1",
+    "redux-mock-store": "^1.5.4",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.2.1"
   }
 }

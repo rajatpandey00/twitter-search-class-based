@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweets test snapshot renders 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "padding": "10px",
+      }
+    }
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "backgroundColor": "cadetblue",
+          "width": "50rem",
+        }
+      }
+    >
+      <img
+        className="mr-3"
+        height={32}
+        width={32}
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          test tweet
+        </p>
+      </div>
+      <div
+        className="card-footer"
+      >
+        <span
+          style={
+            Object {
+              "float": "right",
+            }
+          }
+        >
+          Retweeted Count - 
+          9
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": "10px",
+      }
+    }
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "backgroundColor": "cadetblue",
+          "width": "50rem",
+        }
+      }
+    >
+      <img
+        className="mr-3"
+        height={32}
+        width={32}
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          test tweet2
+        </p>
+      </div>
+      <div
+        className="card-footer"
+      >
+        <span
+          style={
+            Object {
+              "float": "right",
+            }
+          }
+        >
+          Retweeted Count - 
+          19
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

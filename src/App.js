@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.scss';
-import SearchBox from './components/SearchBox';
+import Twitter from './components/Twitter';
 
-function App() {
+// @flow
+const App = () => {
   return (
     <div className="App">
-      <SearchBox />
+      <Twitter />
     </div>
   );
 }
